@@ -16,7 +16,7 @@ Also the interface is `User Friendly` so that you can use it at your ease.
 
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-* by deafult the page would be visible at `localhost:3000`
+* by default the page would be visible at `localhost:3000`
 
 ### `search Results` 🔍
 
