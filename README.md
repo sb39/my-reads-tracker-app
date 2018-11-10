@@ -35,11 +35,11 @@ The backend API uses a fixed set of `cached search results` and is limited to a 
 
 ## Dependencies 
 
-    1. [ReactJS](https://reactjs.org/)
-    2. [Heroku](https://www.heroku.com/)
-    3. [HerokuReactBuildPack](https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack)
-    4. [Npm](https://www.npmjs.com/)
-    5. [NodeJS](https://nodejs.org/)
+1. [ReactJS](https://reactjs.org/)
+2. [Heroku](https://www.heroku.com/)
+3. [HerokuReactBuildPack](https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack)
+4. [Npm](https://www.npmjs.com/)
+5. [NodeJS](https://nodejs.org/)
 
 Node[4] and NodeJS[5] are by-default used by `create-react-app`. 
 
