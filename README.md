@@ -10,7 +10,7 @@ Also, there is a Add button where A user can search for books by there respectiv
 You can also open this search deck in new tabs depending upon your convinience.
 Also the interface is `User Friendly` so that you can use it at your ease.
 
-## Getting This App on locally
+## Getting This App locally
 
 ### To run/view this app:
 
