@@ -20,13 +20,6 @@ Also the interface is `User Friendly` so that you can use it at your ease.
 
 ### `search Results` 🔍
 
-Method Signature:
-
-```js
-search(query)
-```
-
-* query: `<String>`
 * Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
 * These books do not know which shelf they are on. They are raw results only. You'll need to make sure that books have the correct state while on the search page.
 
