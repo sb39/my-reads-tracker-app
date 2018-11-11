@@ -10,7 +10,7 @@ class SearchBooks extends Component{
         books: [],
         display: [],
         query : ''
-    }
+    }  
 // query update state
     updateQuery = (query) => {
         this.setState({ query: query.trim() })
@@ -25,6 +25,14 @@ class SearchBooks extends Component{
     
         this.setState({
           books: [...books.slice(0, updateIndex), updateBook, ...books.slice(updateIndex + 1)]
+        })
+      }
+      // checking for component mounted or not 
+      componentDidMount() {
+        BooksAPI.getAll().then(allBooks => {
+          this.setState({
+          display: allBooks.filter(book => book.shelf !== 'none')
+        })
         })
       }
     // search query for fetching from booksAPI
