@@ -10,23 +10,16 @@ Also, there is a Add button where A user can search for books by there respectiv
 You can also open this search deck in new tabs depending upon your convinience.
 Also the interface is `User Friendly` so that you can use it at your ease.
 
-## Getting This App on locally
+## Getting This App locally
 
 ### To run/view this app:
 
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-* by deafult the page would be visible at `localhost:3000`
+* by default the page would be visible at `localhost:3000`
 
 ### `search Results` 🔍
 
-Method Signature:
-
-```js
-search(query)
-```
-
-* query: `<String>`
 * Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
 * These books do not know which shelf they are on. They are raw results only. You'll need to make sure that books have the correct state while on the search page.
 
@@ -35,11 +28,11 @@ The backend API uses a fixed set of `cached search results` and is limited to a 
 
 ## Dependencies 
 
-    1. [ReactJS](https://reactjs.org/)
-    2. [Heroku](https://www.heroku.com/)
-    3. [HerokuReactBuildPack](https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack)
-    4. [Npm](https://www.npmjs.com/)
-    5. [NodeJS](https://nodejs.org/)
+1. [ReactJS](https://reactjs.org/)
+2. [Heroku](https://www.heroku.com/)
+3. [HerokuReactBuildPack](https://elements.heroku.com/buildpacks/mars/create-react-app-buildpack)
+4. [Npm](https://www.npmjs.com/)
+5. [NodeJS](https://nodejs.org/)
 
 Node[4] and NodeJS[5] are by-default used by `create-react-app`. 
 
